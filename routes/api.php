@@ -25,6 +25,8 @@ Route::get('/scat/{id}', [ScategorieController::class,'show']);
 Route::put("/scat/{id}",[ScategorieController::class,"update"]);
 Route::get('/scat/{idcat}', [ScategorieController::class,'showSCategorieByCAT']);
 
-Route::middleware('api')->group(function () {
-    Route::resource('articles', ArticleController::class);
-    });
+Route::get('/articles', [ArticleController::class,'index']);
+Route::post('/articles', [ArticleController::class,'store']);
+Route::delete('/articles/{id}', [ArticleController::class,'destroy']);
+Route::get('/articles/{id}', [ArticleController::class,'show']);
+Route::put("/articles/{id}",[ArticleController::class,"update"]);

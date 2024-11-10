@@ -9,7 +9,7 @@
 
          <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
-        <link href="{{ secure_asset('frontend/dist/assets/index-BIGJsLC1.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('frontend/dist/assets/index-CxZmfaBY.css') }}" rel="stylesheet">
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -174,6 +174,6 @@
             </div>
         </div>
 
-<script src="{{ secure_asset('frontend/dist/assets/index-QjRGs9hF.js')}}"></script>
+<script src="{{ secure_asset('frontend/dist/assets/index-BfRLkm4B.js')}}"></script>
     </body>
 </html>

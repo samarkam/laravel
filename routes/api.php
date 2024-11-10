@@ -30,3 +30,6 @@ Route::post('/articles', [ArticleController::class,'store']);
 Route::delete('/articles/{id}', [ArticleController::class,'destroy']);
 Route::get('/articles/{id}', [ArticleController::class,'show']);
 Route::put("/articles/{id}",[ArticleController::class,"update"]);
+
+
+Route::get('/articles/art/articlespaginate', [ArticleController::class, 'articlesPaginate']);

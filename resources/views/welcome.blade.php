@@ -170,7 +170,7 @@
                 </div>
             </div>
         </div>
-        <script src="{{secure_asset('\frontend\dist\assets\index-QjRGs9hF.js')">
+        <script src="{{secure_asset('\frontend\dist\assets\index-QjRGs9hF.js')}}">
 
         </script>
     </body>

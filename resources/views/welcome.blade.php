@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+         <link rel="stylesheet" href="{{ secure_asset('frontend/dist/assets/index-BIGJsLC1.css}}">
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -168,5 +170,8 @@
                 </div>
             </div>
         </div>
+        <script src="{{secure_asset('\frontend\dist\assets\index-DuXK9Vj3.js')">
+
+        </script>
     </body>
 </html>
